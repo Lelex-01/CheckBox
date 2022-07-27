@@ -1,0 +1,33 @@
+body{
+    background-color: #1e1e1e;
+}
+
+input[type=checkbox]{
+    zoom: 500%;
+    
+}
+input[type=text]{
+    zoom: 250%;
+    width: 50%;
+    font-family: 'Bebas Neue', cursive;
+    background-color: #04AA6D;
+}
+
+.header{
+    text-align: center;;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 150%;
+    color: white;
+    padding: 10px ;
+    background: #04AA6D;
+    color: #f1f1f1;
+}
+
+.Tickboxes{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+.Links{
+    color: #04AA6D;
+    margin-left: 90%;
+}
