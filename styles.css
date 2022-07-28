@@ -6,14 +6,39 @@ input[type=checkbox]{
     zoom: 500%;
     
 }
-input[type=text]{
+input[type=text]#Green{
     zoom: 250%;
     width: 50%;
     font-family: 'Bebas Neue', cursive;
     background-color: #04AA6D;
 }
+input[type=text]#Blue{
+    zoom: 250%;
+    width: 50%;
+    font-family: 'Bebas Neue', cursive;
+    background-color: #0094FF;
+    color: white;
+}
 
-.header{
+.header-Green{
+    text-align: center;;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 150%;
+    color: white;
+    padding: 10px ;
+    background: #04AA6D;
+    color: #f1f1f1;
+}
+.header-Blue{
+    text-align: center;;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 150%;
+    color: white;
+    padding: 10px ;
+    background: #0094ff;
+    color: #f1f1f1;
+}
+.header-index{
     text-align: center;;
     font-family: 'Bebas Neue', cursive;
     font-size: 150%;
@@ -27,7 +52,29 @@ input[type=text]{
     text-align: center;
     font-family: 'Bebas Neue', cursive;
 }
-.Links{
+.Links-Green{
     color: #04AA6D;
     margin-left: 90%;
+}
+.Links-Blue{
+    color: #0094FF;
+    margin-left: 90%;
+}
+.Neue-Liste-Button{
+    margin-top: 40%;
+    cursor: url(Cursor.png), pointer
+}
+.index-Buttons{
+    display: flex;
+    justify-content: center;
+    zoom: 10%;
+}
+.second-Button{
+    margin-top: 5%;
+    cursor: url(Cursor.png), pointer
+}
+.index-Links{
+    zoom: 100%;
+    text-align: center;
+    margin-top: 5%;
 }
