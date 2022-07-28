@@ -19,7 +19,6 @@ input[type=text]#Blue{
     background-color: #0094FF;
     color: white;
 }
-
 .header-Green{
     text-align: center;;
     font-family: 'Bebas Neue', cursive;
@@ -47,7 +46,6 @@ input[type=text]#Blue{
     background: #04AA6D;
     color: #f1f1f1;
 }
-
 .Tickboxes{
     text-align: center;
     font-family: 'Bebas Neue', cursive;
@@ -76,5 +74,14 @@ input[type=text]#Blue{
 .index-Links{
     zoom: 100%;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 2.5%;
+}
+.index-text{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: white;
+    margin-top: 2%;
+}
+.Textpages{
+    text-align: center;
 }
